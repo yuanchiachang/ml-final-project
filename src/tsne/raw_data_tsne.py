@@ -9,7 +9,7 @@ from sklearn.manifold import TSNE
 NUM_DT = 22
 NUM_DATA = 5000
 PERPLEXITY = 150
-DATA_PATH = "../data/lstm/data/alldt.csv"
+DATA_PATH = "../lstm/data/dt_all.csv"
 COLORS = ["steelblue", "red", "black", "brown", "yellow", "peachpuff", "cyan", "darkgray",
           "greenyellow", "hotpink", "lime", "magenta", "olivedrab", "orange", "blue", "peru"]
 

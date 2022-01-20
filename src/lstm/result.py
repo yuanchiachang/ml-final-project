@@ -20,4 +20,4 @@ for i in range(10000000, 10500000):
 
 result = result.astype({"chid": str, "top1" : str, "top2" : str, "top3": str})
 result = result.sort_values(by=["chid"])
-result.to_csv("result.csv", index=False)
+result.to_csv("./result/result.csv", index=False)
