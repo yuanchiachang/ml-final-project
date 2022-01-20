@@ -54,7 +54,7 @@ https://drive.google.com/drive/folders/1fJqFRbAtcO-Nypbuuj1bOGOkcGJLmcKw?usp=sha
 2. 依序跑以下檔案
     * python make_dt.py (runtime > 1hr) 
     * python buildnotna.py (~5min)
-    * python squeeze.py(~5min)
+    * python squeeze.py(~5min) <br>
 如果 python make_dt.py runtime 時間太長可以直接從下方連結將 data 放進 ./data 中 <br>
 https://drive.google.com/drive/folders/1rCgVw0g4NGvcx0pPyeVnSiSya9hHT94O?fbclid=IwAR2nDKaUBgbJf1E2SrqOBheyi1BYf4bm-v2uoXgExn3o8WIJt1Q2FVajbj0
 
@@ -65,8 +65,8 @@ https://drive.google.com/drive/folders/1rCgVw0g4NGvcx0pPyeVnSiSya9hHT94O?fbclid=
   * dt_only1_post.csv
 
 4. Model 跑以下兩個 ipynb 檔
-  1. LSTM.ipynb
-  2. Regression.ipynb
+  * LSTM.ipynb
+  * Regression.ipynb
 <br>
 並且執行完後會在資料夾當中產生 LSTM 的 checkpoint model.pth
 
@@ -79,8 +79,7 @@ https://drive.google.com/drive/folders/1rCgVw0g4NGvcx0pPyeVnSiSya9hHT94O?fbclid=
   * result_only1.csv
 
 6. Result
-<br>
-python result.py
+* python result.py
 <br> 
 確認是否生成 ./result/result.csv，./result/result.csv 即為對五十萬名消費者前三高消費金額類別預測資料
 
