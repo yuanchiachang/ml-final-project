@@ -41,7 +41,9 @@ https://drive.google.com/drive/folders/1fJqFRbAtcO-Nypbuuj1bOGOkcGJLmcKw?usp=sha
 
 6. 按 Kernel / Run All 執行 7_linear_model.ipynb <br>
 執行完之後確認有沒有產生 ./data/predict_not_full.csv 檔 <br>
-並且執行完後會在資料夾當中產生 checkpoint model.pth
+並且執行完後會在資料夾當中產生 checkpoint model.pth <br>
+或是可以直接從下方連結取得 checkpoint <br>
+https://drive.google.com/file/d/1QOKkffxZkvle6bpZc08uN0SxU4DpqchD/view?usp=sharing
 
 7. 按 Kernel / Run All 執行 8_output_result.ipynb <br>
 執行完之後確認有沒有產生 ./result/result.csv 檔 <br>
@@ -68,9 +70,9 @@ https://drive.google.com/drive/folders/1rCgVw0g4NGvcx0pPyeVnSiSya9hHT94O?fbclid=
   * LSTM.ipynb
   * Regression.ipynb
 <br>
-並且執行完後會在資料夾當中產生 LSTM 的 checkpoint model.pth
-
-  
+並且執行完後會在資料夾當中產生 LSTM 的 checkpoint model.pth <br>
+或是可以直接從下方連結取得 checkpoint <br>
+https://drive.google.com/file/d/1Qoiz--9udlsspQahjFTKBiY0G4s1d90b/view?fbclid=IwAR3Gy8NhAOw1x7fEj3mctrBXr50fbekAl2VAUMmYmCB-LhFfHVtQIdOBY5Y
 
 5. 確認這些檔案有沒有在 "./result" 裡面
   * result_all.csv
