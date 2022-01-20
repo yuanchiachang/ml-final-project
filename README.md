@@ -1,14 +1,13 @@
 # Final Report 操作方法介紹
-<br>
 ## 放進原始資料
 1. 將 6.7GB 的原始訓練資料 train.csv 放在 ./train 資料夾中
-<br>
+
 ## 利用 yaml 檔安裝環境、啟動環境
 1. 打開 environment.yml 檔，根據電腦中 anaconda3 安裝的位置，<br>
 更改 prefix: <anaconda3 安裝路徑>\anaconda3\envs\ml_final_project_tbrain_2
 2. 到 anaconda prompt 中輸入 conda env create -f environment.yml
 3. activate ml_final_project_tbrain_2
-<br>
+
 ## 如何將 train data 切成很多的小檔案
 1. 確認在 ./train 資料夾中是否存在 train.csv 6.7GB 原始訓練檔案
 2. 進去 ./src/nn 中
@@ -17,7 +16,7 @@
 如果 ipynb 檔 runtime 時間太長可以直接從下方連結將 Tbrain_splitData 資料夾放進 ./src/nn 中 <br>
 https://drive.google.com/drive/folders/1fJqFRbAtcO-Nypbuuj1bOGOkcGJLmcKw?usp=sharing
 
-<br>
+
 ## 統計方法過 simple baseline
 1. 進去 ./src/nn 中
 2. 按 Kernel / Run All 執行 2_count_how_many.ipynb <br>
@@ -49,22 +48,21 @@ https://drive.google.com/drive/folders/1fJqFRbAtcO-Nypbuuj1bOGOkcGJLmcKw?usp=sha
 
 ./result/result.csv 檔即為對五十萬名消費者前三高消費金額類別預測資料
 
-<br>
 ## lstm 模型
 1. 進去 ./src/lstm 中
 
 2. 依序跑以下檔案
-  1. python make_dt.py (runtime > 1hr) 
-  2. python buildnotna.py (~5min)
-  3. python squeeze.py(~5min)
+    * python make_dt.py (runtime > 1hr) 
+    * python buildnotna.py (~5min)
+    * python squeeze.py(~5min)
 如果 python make_dt.py runtime 時間太長可以直接從下方連結將 data 放進 ./data 中 <br>
 https://drive.google.com/drive/folders/1rCgVw0g4NGvcx0pPyeVnSiSya9hHT94O?fbclid=IwAR2nDKaUBgbJf1E2SrqOBheyi1BYf4bm-v2uoXgExn3o8WIJt1Q2FVajbj0
 
 3. 確認這些檔案有沒有在 "./data" 裡面
-  1. dt_all.csv
-  2. dt_10to22_post.csv
-  3. dt_less10_post.csv
-  4. dt_only1_post.csv
+  * dt_all.csv
+  * dt_10to22_post.csv
+  * dt_less10_post.csv
+  * dt_only1_post.csv
 
 4. Model 跑以下兩個 ipynb 檔
   1. LSTM.ipynb
@@ -75,10 +73,10 @@ https://drive.google.com/drive/folders/1rCgVw0g4NGvcx0pPyeVnSiSya9hHT94O?fbclid=
   
 
 5. 確認這些檔案有沒有在 "./result" 裡面
-  1. result_all.csv
-  2. result_10to22.csv
-  3. result_less10.csv
-  4. result_only1.csv
+  * result_all.csv
+  * result_10to22.csv
+  * result_less10.csv
+  * result_only1.csv
 
 6. Result
 <br>
@@ -86,7 +84,6 @@ python result.py
 <br> 
 確認是否生成 ./result/result.csv，./result/result.csv 即為對五十萬名消費者前三高消費金額類別預測資料
 
-<br>
 ## TSNE 視覺化
 1. 進去 ./src/tsne 中
 2. 跑 lstm_tsne.ipynb <br>
